@@ -7,7 +7,7 @@
 
 from random import randint
 
-number = int(input(' Ведите размер списка '))
+number = int(input(' Введите размер списка '))
 list1 = []
 list2 = []
 
