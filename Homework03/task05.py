@@ -17,6 +17,7 @@ def get_fibonacci(n):
         fibo_nums.insert(0, a)
         a, b = b, a - b
     return fibo_nums
+
 fibo_nums = get_fibonacci(n + 1)
 print(get_fibonacci(n + 1))
 print(fibo_nums.index(0))
