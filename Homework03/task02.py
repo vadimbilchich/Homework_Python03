@@ -7,7 +7,7 @@
 
 from random import randint
 
-number = int(input(f'Введите размер списка: '))
+number = int(input(' Ведите размер списка '))
 list1 = []
 list2 = []
 
@@ -15,7 +15,7 @@ for i in range(number):
     list1.append(randint(0, 9))
     
 for i in range(len(list1)):
-    while i < len(list1)/2 and number > len(list1)/2:
+    while i < len(list1) / 2 and number > len(list1) / 2:
         number = number - 1
         a = list1[i] * list1[number]
         list2.append(a)
